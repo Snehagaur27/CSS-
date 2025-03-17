@@ -1,14 +1,179 @@
-h1{
-    color: red;
+body{
+    background-color: grey;
+   margin:8px;
 }
-span{
+.header{
+    display: flex;
+    justify-content: center;
+}
+.innrbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 8px solid red;
+    background-color: white;
+    text-shadow: 30px;
+    height: 170px;
+    width: 393px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 1px purple;
+    margin-top: 5px;
+   
+}
+h2{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.innrbox1{
+    border: 8px solid red;
+    background-color: white;
+    text-shadow: 30px;
+    height: 250px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 1px purple;
+}
+.mid{
+    border: 8px solid green;
+}
+.footer{
+    width: 60%;
+    /* border: 8px solid blueviolet; */
+    margin: 10px auto;
+    background-color: green;
+}
+.my-store{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fruits{
     background-color: yellow;
+    padding: 0px 20px 20px 20px;
+    font-style: italic;
+    width: 380px;
 }
-.ul{
-    letter-spacing: 5px;
-    word-spacing: 5px;
-    color: brown;
+.vegetables{
+    background-color: yellow;
+    padding: 0px 20px 20px 20px;
+    font-style: italic;
+    width: 380px;
 }
-p{
-    color: brown;
+.other-items{
+    background-color: yellow;
+    font-style: italic;
+    margin: 0px 15px 50px 15px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.container {
+    padding: 20px;
+    margin: 20px;
+    background-color: darkgreen;
+    border: 8px solid blueviolet;
+}
+.section {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    margin-left: 266px;
+    font-style: italic;
+}
+.middle-body {
+    border: 8px solid green;
+    height: 800px;
+}
+.footer {
+    background-color: yellow;
+    padding: 10px;
+    font-style: italic;
+}
+.offer-box {
+    border: 2px solid red;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+}
+.sidebar {
+    border: 2px solid red;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+pre{
+    margin-left: -62px;
+    font-weight: bold;    
+    font-style: italic;
+}
+.left-box{
+
+    display: flex;
+    justify-content: end;
+}
+
+.address{
+    width: 210px;
+    height: 260px;
+    border: 8px solid red;
+    border-radius: 10px;
+    background-color: white;
+    text-shadow: 2px 1px 2px purple;
+    padding: 10px;
+    box-shadow: 10px 10px 5px purple;
+}
+.rating{
+    width: 210px;
+    height: 285px;
+    border: 8px solid red;
+    border-radius: 10px;
+    background-color: white;
+    text-shadow: 2px 1px 2px purple;
+    box-shadow: 10px 10px 5px purple;
+}
+.address-card{
+    width: 200px;
+    height: 275px;
+    border: 8px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px purple;
+    display: flex
+;
+    align-items: center;
+    background-color: white;
+}
+.footer-fix {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 550px;
+    left: 460px;
+}
+.exciting-offer {
+    background-color: green;
+    width: 500px;
+    display: flex
+;
+    border: 8px solid red;
+    box-shadow: 10px 10px 5px purple;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.address-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.address-bottom {
+display: flex;
+justify-content: space-between;
 }
